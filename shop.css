@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header {
+    position: flex;
+    display: flex;
+    top: 0; left: 0; right: 0;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    padding: 10px 20px;
+}
+
+h1, a{
+    font-weight: 500;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+}
+a button{
+    font-weight: 500;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+}
+button {
+    padding: 9px 25px;
+    background-color: white;
+    border: none;
+    border: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+button:hover{
+    background-color: #FCB69F;
+}
+
+.logo {
+    cursor: pointer;
+    width: 180px;
+}
+.cta button{
+    -webkit-border-radius: 81px;
+    border-radius: 81px;
+    -webkit-box-shadow: 8px 8px 18px #dedede, -8px -8px 18px #ffffff;
+    box-shadow: 8px 8px 18px #dedede, -8px -8px 18px #ffffff;
+}
+
+.center-text h2{
+    color: #111;
+    font-size: 28px;
+    text-transform: capitalize;
+    text-align: center;
+    margin: 30px;
+}
+
+.trending {
+    margin-top: 110px;
+}
+
+.products{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px,auto));
+    margin: 0 20px;
+    gap: 2rem;
+}
+
+.row {
+    position: relative;
+    transition: all .40s;
+}
+
+.row img {
+    width: 100%;
+    height: auto;
+    transition: all .40s;
+}
+
+.row img:hover {
+    transform: scale(0.9);
+}
+
+.product-text h3 {
+    position: absolute;
+    top: 13px;
+    left: 13px;
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    background-color: red;
+    padding: 3px 10px;
+    border-radius: 2px;
+}
+
+.heart-icon{
+    position: absolute;
+    right: 0;
+    font-size: 20px;
+}
+
+.heart-icon:hover{
+    color: aqua;
+}
+.cart-icon {
+    position: absolute;
+    padding-left: 220px;
+    font-size: 20px;
+}
+.cart-icon:hover{
+    color: aqua;
+}
+.rate {
+    color: #FF8C00;
+    font-size: 18px;
+}
+
+.price h4{
+    color: #111;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+.price p {
+    color: #151515;
+    font-size: 14px;
+    font-weight: 600;
+}
